@@ -1,0 +1,14 @@
+[tool]
+[tool.poetry]
+name = "GoldenUserbot_Deployer"
+version = "1.0"
+description = "Automatic Deploy GoldenUserBot to Heroku"
+authors = ["Emin"]
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+gitpython = "*"
+heroku3 = "*"
+requests = "*"
+rich = "*"
+telethon = "*"
