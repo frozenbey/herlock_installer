@@ -13,7 +13,7 @@ from asyncio import get_event_loop
 from .language import LANG, COUNTRY, LANGUAGE, TZ
 from rich.prompt import Prompt, Confirm
 
-REPO_URL = "https://github.com/herlockexe/Herlock"
+REPO_URL = "https://github.com/herlockexe/HerlockUserbot"
 LANG = LANG['MAIN']
 
 def connect (api):
@@ -99,9 +99,9 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
-    if os.path.isdir("./Herlock/"):
-        rm_r("./Herlock/")
-    repo = Repo.clone_from(REPO_URL,"./Herlock/", branch="main")
+    if os.path.isdir("./HerlockUserbot/"):
+        rm_r("./HerlockUserbot/")
+    repo = Repo.clone_from(REPO_URL,"./HerlockUserbot/", branch="main")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/herlockexe/Herlock"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/herlockexe/HerlockUserbot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
