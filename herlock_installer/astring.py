@@ -1,6 +1,6 @@
-# Coded By GitHub/Quiec TG/Fusuf #
+# Kod Sahibi SakirBey - Herlock #
 # Don't kang without permission #
-# @AsenaUserBot #
+# @HerlockUserBot #
 
 
 import asyncio
