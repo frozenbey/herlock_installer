@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
     if os.path.isdir("./HerlockUserbot/"):
         rm_r("./HerlockUserbot/")
-    repo = Repo.clone_from(REPO_URL,"./HerlockUserbot/", branch="main")
+    repo = Repo.clone_from(REPO_URL,"./HerlockUserbot/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
