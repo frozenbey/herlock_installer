@@ -6,7 +6,7 @@ import os, shutil
 console = Console()
 
 def hata (text):
-   console.print(text, style="bold red")
+   console.print(text, style="red")
 def bilgi (text):
    console.print(text, style="blue")
 def basarili (text):
