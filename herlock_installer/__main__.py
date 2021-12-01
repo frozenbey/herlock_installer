@@ -13,7 +13,7 @@ from asyncio import get_event_loop
 from .language import LANG, COUNTRY, LANGUAGE, TZ
 from rich.prompt import Prompt, Confirm
 
-REPO_URL = "https://github.com/herlockexe/HerlockUserbot"
+REPO_URL = "https://github.com/SakirBey1/HerlockUserbot"
 LANG = LANG['MAIN']
 
 def connect (api):
