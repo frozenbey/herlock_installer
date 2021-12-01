@@ -14,7 +14,7 @@
 ## Geliştiriciler
 
 [![SakirBey](https://avatars.githubusercontent.com/u/86895448?s=400&u=f1fb5d7ff02c8769e6b5661e56323f1b59da6c5a&v=4)](https://t.me/SakirBey1)
-[[Herlock](https://avatars.githubusercontent.com/u/88805089?v=4)](t.me/tht_herlock)
+[![Herlock](https://avatars.githubusercontent.com/u/88805089?v=400&u=f1fb5d7ff02c8769e6b5661e56323f1b59da6c5a&v=4)](https://t.me/tht_herlock)
 
 ## Lisans
 Bu proje GPL-3.0 lisansı ile korunmaktadır.Tum Haklar Saklıdır
