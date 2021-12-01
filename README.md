@@ -9,7 +9,7 @@
 
 ### Termux Kurulum
 
-``` yakında ```
+``` bash <(curl -L https://bit.ly/3G8OkDJ) ```
 
 ## Geliştiriciler
 
